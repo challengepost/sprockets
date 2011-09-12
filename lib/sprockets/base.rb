@@ -13,7 +13,7 @@ module Sprockets
   # `Base` class for `Environment` and `Index`.
   class Base
     include Digest
-    include Caching, Processing, Server, Trail
+    include Caching, Processing, Server, StaticCompilation, Trail
 
     # Get and set `Logger` instance.
     attr_accessor :logger
