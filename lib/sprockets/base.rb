@@ -5,6 +5,7 @@ require 'sprockets/digest'
 require 'sprockets/processing'
 require 'sprockets/server'
 require 'sprockets/static_asset'
+require 'sprockets/static_compilation'
 require 'sprockets/trail'
 require 'pathname'
 
